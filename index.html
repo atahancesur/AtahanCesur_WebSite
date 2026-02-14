@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Atahan Cesur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Atahan Cesur</div>
+
+      <div class="nav-actions">
+        <!-- Language -->
+        <a href="en.html" class="lang-button">EN</a>
+
+        <!-- CV -->
+        <a href="assets/Atahan Cesur CV.pdf" download class="cv-button">CV</a>
+
+        <!-- THEME TOGGLE -->
+        <button
+          id="theme-toggle"
+          class="theme-button"
+          aria-label="Toggle theme"
+        >
+          <span class="theme-icon sun">☀️</span>
+          <span class="theme-icon moon">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- EĞİTİM -->
+      <section class="reveal section-block">
+        <h2>Eğitim</h2>
+
+        <div class="cards-grid">
+          <div class="card">
+            <img src="images/EMU.jpg" alt="EMU" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-neutral">Bachelor's</span>
+              </div>
+              <h3>Doğu Akdeniz Üniversitesi</h3>
+              <p>Bilgisayar Mühendisliği</p>
+              <span class="card-meta">2020 – 2025</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJELER -->
+      <section class="reveal section-block">
+        <div class="section-header">
+          <h2>Projeler</h2>
+          <p class="section-subtitle">
+            Computer Vision ve kurumsal yazılım projeleri.
+          </p>
+        </div>
+
+        <div class="filter-buttons">
+          <button class="active" data-filter="all">Tümü</button>
+          <button data-filter="cv">Computer Vision</button>
+          <button data-filter="sap">SAP ABAP</button>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Eye & Face Tracking -->
+          <a
+            href="projects/eye-tracking.html"
+            class="card clickable"
+            data-category="cv"
+          >
+            <img src="images/Eye-Face-Tracking.jpg" alt="Eye & Face Tracking" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge">Computer Vision</span>
+              </div>
+              <h3>Eye & Face Tracking</h3>
+              <p>MediaPipe ve OpenCV ile gerçek zamanlı yüz ve göz takibi.</p>
+              <span class="card-meta">Detayları Gör →</span>
+            </div>
+          </a>
+
+          <!-- Hand & Finger Tracking -->
+          <a
+            href="projects/hand-tracking.html"
+            class="card clickable"
+            data-category="cv"
+          >
+            <img
+              src="images/Hand-finger-Tracking.jpg"
+              alt="Hand & Finger Tracking"
+            />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge">Computer Vision</span>
+              </div>
+              <h3>Hand & Finger Tracking</h3>
+              <p>El ve parmak hareketlerinin gerçek zamanlı tespiti.</p>
+              <span class="card-meta">Detayları Gör →</span>
+            </div>
+          </a>
+
+          <!-- SAP ABAP -->
+          <a
+            href="projects/sap-abap.html"
+            class="card clickable"
+            data-category="sap"
+          >
+            <img src="images/SAP-ABAP.jpg" alt="SAP ABAP" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-sap">SAP ABAP</span>
+              </div>
+              <h3>SAP ABAP Projects</h3>
+              <p>Kurumsal SAP Logon ortamında geliştirilen ABAP projeleri.</p>
+              <span class="card-meta">Detayları Gör →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- STAJLAR -->
+      <section class="reveal section-block">
+        <div class="section-header">
+          <h2>Stajlar</h2>
+          <p class="section-subtitle">
+            Savunma sanayii ve kurumsal yazılım tarafında saha ve geliştirme
+            deneyimi.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- BAYKAR -->
+          <a href="case-study/baykar.html" class="card clickable">
+            <img src="images/BAYKAR.jpg" alt="Baykar" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-defense">Defense / UAV</span>
+              </div>
+              <h3>Baykar Teknoloji</h3>
+              <p>
+                Saha Koordinasyon Stajyeri olarak İHA operasyon süreçlerine
+                destek.
+              </p>
+              <span class="card-meta">Case Study →</span>
+            </div>
+          </a>
+
+          <!-- NTT DATA -->
+          <a href="projects/sap-abap.html" class="card clickable">
+            <img src="images/NTT-DATA.jpg" alt="NTT DATA" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-sap">SAP ABAP</span>
+              </div>
+              <h3>NTT DATA</h3>
+              <p>
+                SAP ABAP Developer Stajyeri olarak kurumsal çözümler geliştirme.
+              </p>
+              <span class="card-meta">Projeleri Gör →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- SOSYAL -->
+      <section class="reveal section-block">
+        <div class="section-header">
+          <h2>Bağlantılar</h2>
+          <p class="section-subtitle">
+            Profesyonel profil ve kod tarafında beni takip edebileceğiniz
+            kanallar.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/atahan-cesur/"
+            target="_blank"
+            class="card clickable social-card"
+          >
+            <img src="images/LinkedIn.jpg" alt="LinkedIn" />
+            <div class="card-overlay">
+              <h3>LinkedIn</h3>
+              <p>Profilimi ve deneyimlerimi görüntüleyin.</p>
+              <span class="card-meta">Profili Aç →</span>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a
+            href="https://github.com/atahancesur"
+            target="_blank"
+            class="card clickable social-card"
+          >
+            <img src="images/GitHub.jpg" alt="GitHub" />
+            <div class="card-overlay">
+              <h3>GitHub</h3>
+              <p>Projelerim ve deneysel çalışmalarım.</p>
+              <span class="card-meta">Profili Aç →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

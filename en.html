@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Atahan Cesur | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Atahan Cesur</div>
+
+      <div class="nav-actions">
+        <!-- Language -->
+        <a href="en.html" class="lang-button">EN</a>
+
+        <!-- CV -->
+        <a href="assets/Atahan Cesur CV.pdf" download class="cv-button">CV</a>
+
+        <!-- THEME TOGGLE -->
+        <button
+          id="theme-toggle"
+          class="theme-button"
+          aria-label="Toggle theme"
+        >
+          <span class="theme-icon sun">☀️</span>
+          <span class="theme-icon moon">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- EDUCATION -->
+      <section class="reveal section-block">
+        <h2>Education</h2>
+
+        <div class="cards-grid">
+          <div class="card">
+            <img src="images/EMU.jpg" alt="EMU" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-neutral">Bachelor's</span>
+              </div>
+              <h3>Eastern Mediterranean University</h3>
+              <p>BSc in Computer Engineering</p>
+              <span class="card-meta">2020 – 2025</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="reveal section-block">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p class="section-subtitle">
+            Computer vision and enterprise software projects.
+          </p>
+        </div>
+
+        <div class="filter-buttons">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="cv">Computer Vision</button>
+          <button data-filter="sap">SAP ABAP</button>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Eye & Face Tracking -->
+          <a
+            href="projects/eye-tracking-en.html"
+            class="card clickable"
+            data-category="cv"
+          >
+            <img src="images/Eye-Face-Tracking.jpg" alt="Eye & Face Tracking" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge">Computer Vision</span>
+              </div>
+              <h3>Eye & Face Tracking</h3>
+              <p>Real-time face and eye tracking using MediaPipe & OpenCV.</p>
+              <span class="card-meta">View Details →</span>
+            </div>
+          </a>
+
+          <!-- Hand & Finger Tracking -->
+          <a
+            href="projects/hand-tracking-en.html"
+            class="card clickable"
+            data-category="cv"
+          >
+            <img
+              src="images/Hand-finger-Tracking.jpg"
+              alt="Hand & Finger Tracking"
+            />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge">Computer Vision</span>
+              </div>
+              <h3>Hand & Finger Tracking</h3>
+              <p>Real-time gesture and hand landmark tracking.</p>
+              <span class="card-meta">View Details →</span>
+            </div>
+          </a>
+
+          <!-- SAP ABAP -->
+          <a
+            href="projects/sap-abap-en.html"
+            class="card clickable"
+            data-category="sap"
+          >
+            <img src="images/SAP-ABAP.jpg" alt="SAP ABAP" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-sap">SAP ABAP</span>
+              </div>
+              <h3>SAP ABAP Projects</h3>
+              <p>Enterprise software development in SAP Logon.</p>
+              <span class="card-meta">View Details →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- INTERNSHIPS -->
+      <section class="reveal section-block">
+        <div class="section-header">
+          <h2>Internships</h2>
+          <p class="section-subtitle">
+            Field experience in defense and enterprise software development.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- BAYKAR -->
+          <a href="case-study/baykar-en.html" class="card clickable">
+            <img src="images/BAYKAR.jpg" alt="Baykar" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-defense">Defense / UAV</span>
+              </div>
+              <h3>Baykar Technologies</h3>
+              <p>Field Coordination Intern supporting UAV operations.</p>
+              <span class="card-meta">Case Study →</span>
+            </div>
+          </a>
+
+          <!-- NTT DATA -->
+          <a href="projects/sap-abap-en.html" class="card clickable">
+            <img src="images/NTT-DATA.jpg" alt="NTT DATA" />
+            <div class="card-overlay">
+              <div class="card-badges">
+                <span class="badge badge-sap">SAP ABAP</span>
+              </div>
+              <h3>NTT DATA</h3>
+              <p>SAP ABAP Developer Intern working on enterprise solutions.</p>
+              <span class="card-meta">View Projects →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- SOCIAL -->
+      <section class="reveal section-block">
+        <div class="section-header">
+          <h2>Links</h2>
+          <p class="section-subtitle">
+            Where you can follow my work and professional profile.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/atahan-cesur/"
+            target="_blank"
+            class="card clickable social-card"
+          >
+            <img src="images/LinkedIn.jpg" alt="LinkedIn" />
+            <div class="card-overlay">
+              <h3>LinkedIn</h3>
+              <p>Professional experience and background.</p>
+              <span class="card-meta">Open Profile →</span>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a
+            href="https://github.com/atahancesur"
+            target="_blank"
+            class="card clickable social-card"
+          >
+            <img src="images/GitHub.jpg" alt="GitHub" />
+            <div class="card-overlay">
+              <h3>GitHub</h3>
+              <p>Code, experiments, and side projects.</p>
+              <span class="card-meta">Open Profile →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
